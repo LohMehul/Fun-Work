@@ -220,10 +220,10 @@ a {
 }
 
 .cart:hover {
-    /* animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both; */
-    /* transform: translate3d(0, 0, 0); */
-    /* backface-visibility: hidden; */
-    /* perspective: 1000px; */
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
 }
 
 .cart {
@@ -289,7 +289,7 @@ button:hover .joker {
     border-radius: 10px;
     width: 250px;
     height: 400px;
-    background-color: rgb(189, 75, 75);
+    background-color: rgb(39, 34, 34);
     -webkit-box-shadow: 1px 1px 12px #000;
     box-shadow: 1px 1px 12px #000;
     -webkit-transform: preserve-3d;
