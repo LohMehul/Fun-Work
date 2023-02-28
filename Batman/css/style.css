@@ -220,10 +220,10 @@ a {
 }
 
 .cart:hover {
-    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    perspective: 1000px;
+    /* animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both; */
+    /* transform: translate3d(0, 0, 0); */
+    /* backface-visibility: hidden; */
+    /* perspective: 1000px; */
 }
 
 .cart {
@@ -234,6 +234,7 @@ a {
     margin: 50px 0 50px 0;
     color: rgb(192, 0, 0);
     border: 1px solid red;
+    font-family: 'Itim';
 }
 
 .content h5 {
@@ -250,8 +251,8 @@ a {
 
 .sec-four button {
     /* height: 600px; */
-/* padding: 200px; */
-margin: 200px;
+    /* padding: 200px; */
+    margin: 200px;
 }
 
 .joker {
@@ -259,19 +260,98 @@ margin: 200px;
     display: none;
     /* opacity: 0; */
 }
-.s-4{
+
+.s-4 {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 button:hover {
     color: red;
 }
 
-button:hover .joker{
+button:hover .joker {
     /* visibility: visible; */
     /* opacity: 1; */
     display: block;
     /* position: absolute; */
+}
+
+
+
+
+/************ batman hover book ********** */
+
+.book {
+    position: relative;
+    border-radius: 10px;
+    width: 250px;
+    height: 400px;
+    background-color: rgb(189, 75, 75);
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+}
+
+.cover {
+    top: 0;
+    position: absolute;
+    background-color: rgb(92, 92, 92);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 2.5s;
+    transition: all 2.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.book:hover .cover {
+    -webkit-transition: all 2.5s;
+    transition: all 2.5s;
+    -webkit-transform: rotatey(-105deg);
+    -ms-transform: rotatey(-105deg);
+    transform: rotatey(-105deg);
+}
+
+p {
+    color: red;
+    font-size: 20px;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+
+.cover img {
+    width: 100%;
+    height: 100%;
 }
