@@ -83,11 +83,16 @@
 }
 
 .data input {
-    padding: 20px 150px;
+    /* p    adding: 20px 150px; */
     border-radius: 20px;
     background-color: #ebe3cd;
 }
-
+.date{
+    padding: 20px 175px;
+}
+.text{
+    padding: 20px 150px;
+}
 .data-title {
     font-size: 40px;
 }
